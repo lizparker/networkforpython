@@ -1,3 +1,4 @@
+# scan single ip and port
 import socket
 
 socket.setdefaulttimeout(.5)
