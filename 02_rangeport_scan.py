@@ -22,6 +22,7 @@ def portrange_check(ip, sp, ep):
                 device_socket.close()
     except:
         print('Exception occurred')
+        pass
 
 
 # portrange_check('63.116.24.66', 22, 23)
