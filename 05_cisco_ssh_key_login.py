@@ -51,7 +51,7 @@ session.connect(hostname=host,
 device_access = session.invoke_shell()
 time.sleep(1)
 device_access.send('term length 0\n')
-time.sleep(1)
+# time.sleep(1)
 device_access.send('show ip int brief\n')
 time.sleep(5)
 output = device_access.recv(65000)

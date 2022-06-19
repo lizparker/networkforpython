@@ -1,0 +1,9 @@
+63.116.24.66,152.193.10.170
+terminal len 0,terminal len 0
+config t,config t
+int loopback 100,int loopback 101
+no shut,no shut
+ip add 100.1.1.1 255.255.255.0,ip add 101.1.1.1 255.255.255.0
+exit,exit
+exit,exit
+show ip int b,show ip int b
